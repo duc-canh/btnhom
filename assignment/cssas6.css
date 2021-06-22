@@ -1,0 +1,115 @@
+.hea1{
+    text-align: center;
+
+}
+.container{
+    background-color: purple;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*header*/
+.hea1 a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+}
+#ha1{
+    background-color:dimgrey;
+    color: white;
+}
+#ha2{
+    background-color: black;
+}
+.nav2 span{
+    color: deepskyblue;
+}
+/*end*/
+.na{
+    background-color: midnightblue;
+}
+.nav2,.nav1{
+    background-color: midnightblue;
+}
+.nav1{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 20px;
+}
+.nav2{
+    font-size: 10px;
+    text-transform: capitalize;
+    line-height: 68px;
+}
+/*end*/
+.se1-1 img{
+    width: 100%;
+    height: 300px;
+    padding-left: 10px;
+}
+.se0{
+    color: deepskyblue;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.item1,.item2{
+    text-align: center;
+}
+.item1{
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+.item2{
+    font-size: 10px;
+    text-transform: capitalize;
+}
+.se2-1 a{
+    color: red;
+}
+.se2-1:hover{
+    background-color: black;
+}
+.se3{
+    margin:0 36%;
+}
+#s1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    color: deepskyblue;
+    margin: 20px;
+}
+.se3-1{
+    text-transform: capitalize;
+    font-size: 12px;
+    margin: 10px;
+    text-align: center;
+}
+/*end*/
+/*footer*/
+.f1{
+    color: deepskyblue;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.f2{
+    text-transform: capitalize;
+    margin: 10px 0;
+    font-size: 10px;
+}
+.f3 img{
+    width: 100%;
+    height: 40px;
+}
+.f3{
+    font-size: 10px;
+    text-transform: capitalize;
+}
