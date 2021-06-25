@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Lucky:Chuyên đặc sản trái cây Việt Nam</title>
-    <link rel="stylesheet" href="css/cssgroup.css" type="text/css"/>
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/layout.css" type="text/css"/>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/cssgroup.css" type="text/css"/>
 </head>
 <body>
 <header class="header section">
-    <div class="container">
+    <div class="container head">
         <div class="intruction">
             <div class="head1"><a href="#">Đăng ký-Đăng nhập</a> </div>
             <div class="head1"><a href="#">Liên hệ</a> </div>
@@ -17,7 +20,7 @@
             <div class="head1"><a href="#"> <img src="imagegroup/as4.fbicon.png"/></a></div>
             <div class="head1"><a href="#"> <img src="imagegroup/as4.intericon.png"/></a> </div>
             <div class="head1"><a href="#"> <img src="imagegroup/as4.insicon.png"/> </a></div>
-            <div class="head1"><a href="#"> <img src="imagegroup/as4.glsearchicon.png"/></a> </div>
+            <div class="head1"><a href="#"> <img src="imagegroup/as4.youicon.png"/></a> </div>
         </div>
         <div class="claer"></div>
         <div class="logo">
@@ -27,33 +30,39 @@
                     <p id="p2">Luôn song hành cùng bạn</p>
                 </a>
             </div>
-            <div class="logo1 lo2"><a class="lga" href="#"><img src="imagegroup/as4.fbicon.png"/></a>
+            <div class="logo1 lo2"><a class="lga" href="#"><img src="imagegroup/hotline.gif"/></a>
                 <a class="lga" href="#">hotline </br>0976xxxx</a>
             </div>
             <div class="logo1 lo2">
-                <a class="lga" href="#"><img src="imagegroup/as4.fbicon.png"/> </a>
+                <a class="lga" href="#"><img src="imagegroup/doitrahang.png"/> </a>
                 <a class="lga" href="#">đổi trả hàng</br>cho đến khi bạn hài lòng </a>
 
             </div>
             <div class="logo1 lo2">
-                <a class="lga" href="#"><img src="imagegroup/as4.fbicon.png"/> </a>
+                <a class="lga" href="#"><img src="imagegroup/chatluong.jpg"/> </a>
                 <a class="lga" href="#">sản phẩm lucky fruit</br> đẳng cấp thế giới</a>
             </div>
         </div>
-        <div class="claer"></div>
-        <div class="selec">
-            <div class="selec1"><a href="#"><img src="imagegroup/as4.intericon.png"/> </a> </div>
-            <div class="selec1"><a href="#">Giới thiệu</a> </div>
-            <div class="selec1"><a href="#">sản phẩm</a></div>
-            <div class="selec1"><a href="#">tin tức</a></div>
-            <div class="selec1"><a href="#">chia sẻ bí quyết</a></div>
-            <div class="selec1"><a href="#">khuyến mại</a></div>
-            <div class="selec1"><a href="#">trái cây mùa</a></div>
-            <div class="selec1"><a href="#">đặt hàng online</a></div>
-        </div>
-        <div class="bg"><a href="#"><img src="imagegroup/traicaybg.jpg"/></a> </div>
     </div>
 </header>
+<nav class="nav section">
+    <div class="container head">
+        <div class="row">
+            <div class="claer"></div>
+            <div class="selec">
+                <div class="selec1" id="s1"><a href="#"><img src="imagegroup/homeicon.png"/> </a> </div>
+                <div class="selec1" ><a href="#">Giới thiệu</a> </div>
+                <div class="selec1" ><a href="#">sản phẩm</a></div>
+                <div class="selec1"><a href="#">tin tức</a></div>
+                <div class="selec1"><a href="#">chia sẻ bí quyết</a></div>
+                <div class="selec1"><a href="#">khuyến mại</a></div>
+                <div class="selec1"><a href="#">trái cây mùa</a></div>
+                <div class="selec1"><a href="#">đặt hàng online</a></div>
+            </div>
+            <div class="bg"><a href="#"><img src="imagegroup/traicaybg.jpg"/></a> </div>
+        </div>
+    </div>
+</nav>
 <div class="claer"></div>
 <section class="main section">
     <div class="container">
@@ -85,6 +94,7 @@
                 <div class="gia">5$/1kg</div>
                 <div ><a class="datmua" href="#"> mua hàng</a></div>
             </div>
+        </did>
         <did class="main1">
             <div class="main2">
                 <a href="#"><img src="imagegroup/vusua.jpg"></a>
@@ -142,13 +152,10 @@
         </did>
 
     </div>
-    <hr>
 </section>
-<div class="claer"></div>
-
 <footer class="footer section">
-    <div class="container">
-        <div class="footer1">
+    <div class="container foot">
+        <div class="col-md-4 footer1">
             <p> Thông tin công ty</p>
             <ul>
                 <li><a href="#"> Giới thiệu công ty</a></li>
@@ -157,7 +164,7 @@
                 <li><a href="#"> Email:luckyfruit@gmail.com</a></li>
             </ul>
         </div>
-        <div class="footer1">
+        <div class="col-md-4 footer1">
             <p> chính sách công ty</p>
             <ul>
                 <li><a href="#"> Chính sách Thẻ KHTT</a></li>
@@ -165,20 +172,22 @@
                 <li><a href="#"> Chính sách bảo mật thông tin cá nhân</a></li>
                 <li><a href="#"> Hướng dẫn khách hàng sử dụng thẻ quà tặng</a></li>
                 <li><a href="#">Hướng dẫn cho khách hàng sử dụng Evoucher</a></li>
+            </ul>
         </div>
-        <div class="footer1">
+        <div class="col-md-4 footer1">
             <p> Quy định khách hàng</p>
             <ul>
                 <li><a href="#"> Quy định đổi trả sản phẩm</a></li>
                 <li><a href="#"> Hướng dẫn đặt hàng và thanh toán</a></li>
+            </ul>
         </div>
         <div class="claer"></div>
         <div class="end">
             <p id="pp1">Công ty Lucky fruit</p>
             <p id="pp2">Địa chỉ đăng ký : số 8 Tôn Thất Thuyết,Nam Từ Liêm,Hà Nội</p>
         </div>
+        <hr>
     </div>
-    <hr>
 </footer>
 </body>
 </html>

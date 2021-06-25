@@ -3,21 +3,16 @@
     padding: 0;
 }
 body{
-    font-size: 14px;
-    color:#333333;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    background-color: whitesmoke;
+    background-color: snow;
 }
+.head{
+    background-color: white;
+}
+
+/*header*/
 .section{
     float: left;
     width: 100%;
-}
-.container{
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
 }
 .intruction{
     float: right;
@@ -77,14 +72,27 @@ body{
     font-size: 50px;
     font-weight: bold;
     text-shadow: 2px 2px 0px purple;
+    transition: 1s;
 }
+#p1:hover{
+    text-decoration:none;
+    transform: scale(1.5);
+    color: green;
+}
+a:hover{
+    text-decoration: none;
+    color: green;
+}
+
 .lo2{
     padding-top: 50px;
 }
+/*end*/
+/*nav*/
 .selec{
     border-top: 1px solid green;
     border-bottom: 1px solid green;
-    height: 60px;
+    height: 70px;
 }
 .selec img{
     width: 20px;
@@ -92,12 +100,14 @@ body{
 }
 .selec .selec1{
     float: left;
-    width: 10%;
-    margin:20px 10px;;
+    margin:20px 10px;
+}
+#s1{
+    margin-left: 22px;
 }
 .selec a{
     text-decoration: none;
-    font-size: 15px;
+    font-size: 22px;
     font-weight: bold;
     text-transform: capitalize;
     padding-right: 5px;
@@ -112,6 +122,8 @@ body{
     height: 300px;
     margin-top: 20px;
 }
+/*end*/
+/*main select*/
 .main0 p{
     margin:40px 0px 30px 0 ;
     text-transform: capitalize;
@@ -159,30 +171,34 @@ body{
     margin-left: 5%;
     padding: 10px;
     border: 1px solid darkgrey;
+    text-decoration: none;
 }
 .datmua:hover{
+    color: white;
     box-shadow: 6px -6px 4px darkgrey;
-    background-color: lightcoral;
+    background-color: purple;
+    text-decoration: none;
 }
 .main1{
     margin: 20px;
 }
-hr{
-    margin-left: 40px;
-    width: 1200px;
-    border: 1px solid grey;
+/*end*/
+/*footer*/
+footer{
+    margin-top: 40px;
 }
-.footer1{
-    float: left;
-    width: 30%;
-    margin: 15px;
-    border: 1px solid whitesmoke;
+.foot{
+    background-color: darkgray;
+}
+hr{
+    border: 1px solid grey;
 }
 .footer1 p{
     text-transform: uppercase;
     margin:30px;
     font-weight: bold;
     font-size: 15px;
+    color: red;
 }
 .footer1 a{
     text-decoration: none;
@@ -202,10 +218,13 @@ hr{
 }
 #pp1{
     text-transform: uppercase;
-    margin: 10px 0;
+    margin: 30px 0 10px 0;
     font-weight: bold;
     font-size: 20px;
+    color: darkgreen;
+    text-shadow: 1px 1px 0 green;
 }
 #pp2{
     margin-bottom: 20px;
 }
+/*end*/
