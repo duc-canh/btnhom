@@ -3,189 +3,220 @@
     padding: 0;
 }
 body{
-    background-color: snow;
+    background-color: #F5F7FF;
 }
-.head{
+/*header*/
+.head_top{
+    margin-top: 50px;
+}
+.head_top img{
+    width: 40%;
+    height: 100px;
+}
+#logo{
+    width: 100%;
+    height: 100px;
+}
+.top-1{
+    float: left;
+}
+.top-2{
+    margin-top: 30px;
+}
+.bt{
+    width: 20%;
+    height: 50px;
+    background-color: #F79E1B;
+    border-radius: 20px;
+    margin-top: 25px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#logo-1:hover{
     background-color: white;
 }
-
-/*header*/
-.section{
-    float: left;
-    width: 100%;
-}
-.intruction{
-    float: right;
-    border-bottom: 1px solid grey;
-}
-.intruction img{
-    width: 20px;
-    height: 20px;
-    vertical-align: top;
-}
-.intruction .head1{
-    float: left;
-    margin: 20px 15px 10px 0;
-}
-.head1 a{
+#h-a1:hover{
     text-decoration: none;
-    padding-right: 5px;
-    border-right: 1px solid grey;
     color: black;
 }
-.head1 a:hover{
-    color: red;
-}
-.claer{
-    clear: both;
-}
-.logo{
-    margin: 30px 0 20px 0;
-}
-.logo .logo1{
-    float: left;
-    width: 23%;
-    margin: 10px;
-}
-.logo img{
-    width: 40px;
-    height: 40px;
-}
-.lga{
-    float:left;
-    margin: 5px;
-    color: green;
-}
-.lga:hover{
-    color: deeppink;
-    text-shadow: 1px 1px 2px purple;
-}
-.logo a{
-    text-decoration: none;
-    text-transform: uppercase;
-}
-#p1,#p2{
-    text-align: center;
-    color: blueviolet;
-}
-#p1{
-    font-size: 50px;
+.h-sp1{
     font-weight: bold;
-    text-shadow: 2px 2px 0px purple;
-    transition: 1s;
+    font-size: 14px;
 }
-#p1:hover{
-    text-decoration:none;
-    transform: scale(1.5);
-    color: green;
+.h-sp2{
+    font-weight: bold;
+    font-size: 16px;
+}
+hr{
+    border: 1px black solid;
+}
+.head-mid a{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
 }
 a:hover{
     text-decoration: none;
-    color: green;
 }
 
-.lo2{
-    padding-top: 50px;
+.head-bottom{
+    margin-top: 60px;
 }
-/*end*/
-/*nav*/
-.selec{
-    border-top: 1px solid green;
-    border-bottom: 1px solid green;
-    height: 70px;
-}
-.selec img{
-    width: 20px;
-    height: 20px;
-}
-.selec .selec1{
-    float: left;
-    margin:20px 10px;
-}
-#s1{
-    margin-left: 22px;
-}
-.selec a{
-    text-decoration: none;
-    font-size: 22px;
+.hb-d1{
     font-weight: bold;
-    text-transform: capitalize;
-    padding-right: 5px;
-    border-right: 1px solid grey;
-}
-.selec a:hover{
-    color: green;
-    text-shadow: 1px 1px 0 green;
-}
-.bg img{
-    width: 100%;
-    height: 300px;
+    font-size: 18px;
     margin-top: 20px;
 }
-/*end*/
-/*main select*/
-.main0 p{
-    margin:40px 0px 30px 0 ;
-    text-transform: capitalize;
+#hb-2{
     font-weight: bold;
-    font-size: 30px;
+    font-size: 50px;
+}
+#hb-3:hover{
+    background-color: white;
+}
+/*section*/
+.st1{
+    margin-top: 200px;
     text-align: center;
-    color: red;
-    text-shadow: 1px 1px 0 red;
 }
-.main2{
-    float: left;
-    width: 20%;
-    margin: 25px;
-    border: 1px solid darkgrey;
-}
-.main1 img{
-    width: 100%;
-    height: 250px;
-}
-.main1 a{
-    width: 100%;
-    text-decoration: none;
-    text-align: center;
-    color: forestgreen;
-}
-.main1 a:hover{
-    text-decoration: underline;
-}
-.main2 div{
-    text-align: center;
-    font-size: 20px;
-    margin:20px 0 ;
+.st1-1{
     font-weight: bold;
+    font-size: 50px;
+}
+.st2\.1{
+    margin-top: 20px;
+}
+.item{
+    margin: 30px 10px 20px;
+    background-color: #FEFEFE;
+    border: 1px solid orange;
+}
+.st2\.2{
+    color: #F79E1B;
     text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+    margin:10px 0;
 }
-.main2:hover{
-    box-shadow: 6px -6px 4px darkgrey;
+.st2\.3{
+    font-size: 15px;
+    line-height: 2.5;
 }
-.gia{
-    color: red;
-}
-.datmua{
-    color: purple;
-    width: 60%;
-    margin-left: 5%;
+.nd{
+    margin: 30px 20px;
+    background-color: white;
+    box-shadow: 3px 3px 10px gray;
     padding: 10px;
-    border: 1px solid darkgrey;
-    text-decoration: none;
 }
-.datmua:hover{
-    color: white;
-    box-shadow: 6px -6px 4px darkgrey;
-    background-color: purple;
-    text-decoration: none;
+.st3{
+    margin-top: 40px;
+    padding: 0 30px;
 }
-/*end*/
+.st3-0{
+    margin-top: 100px;
+}
+.st3-1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.st3-2{
+    font-size: 15px;
+    line-height: 4;
+}
+.st4{
+    text-align: center;
+    margin-top: 50px;
+}
+.st5-1{
+    padding: 10px;
+    margin-top: 20px;
+
+}
+.nd5{
+    background-color:#FEFEFE;
+}
+.st5-1 img{
+    width: 100%;
+    height: 219px;
+}
+.st5-11{
+    font-weight: bold;
+    font-size: 20px;
+}
+.st5-12{
+    font-size: 20px;
+}
+.st5-13{
+    font-weight: bold;
+    font-size: 40px;
+    color:#F79E1B ;
+}
+.bt1{
+    width: 80%;
+    height: 50px;
+    background-color: #F79E1B;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bt1:hover{
+    background-color: #CC6601;
+}
+.st6{
+    text-align: center;
+    margin-top: 50px;
+}
+.st7{
+    margin-top: 40px;
+}
+.item7{
+    text-align: center;
+    background-color: #FEFEFE;
+    padding: 20px 10px 10px 10px;
+}
+.st7-1{
+    font-weight: bold;
+    font-size: 40px;
+    color:#F79E1B ;
+}
+.st7-2{
+    font-size: 20px;
+}
+.im7{
+    max-width: 340px;
+}
+.st8{
+    margin-top: 40px;
+}
+.item8{
+    background-color: #FEFEFE;
+}
+.item8 img{
+    max-width: 100%;
+}
+.st8-1, .st8-2{
+    padding: 0 20px;
+}
+.st8-1{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.st8-2{
+    margin-top: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
 /*footer*/
 footer{
     margin-top: 40px;
 }
 .foot{
-    background-color: darkgray;
+    background-color: #FEFEFE;
 }
 hr{
     border: 1px solid grey;
@@ -217,9 +248,9 @@ hr{
     text-transform: uppercase;
     margin: 30px 0 10px 0;
     font-weight: bold;
-    font-size: 20px;
-    color: darkgreen;
-    text-shadow: 1px 1px 0 green;
+    font-size: 40px;
+    color: #F79E1B;
+    text-shadow: 1px 1px 0 #F79E1B;
 }
 #pp2{
     margin-bottom: 20px;
