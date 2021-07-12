@@ -48,35 +48,35 @@ header();
 function footer(){
     var ft = "<div class=\"container foot\">\n" +
         "        <div class=\"col-md-4 footer1\">\n" +
-        "            <p> Thông tin công ty</p>\n" +
+        "            <p> Company information</p>\n" +
         "            <ul>\n" +
-        "                <li><a href=\"#\"> Giới thiệu công ty</a></li>\n" +
-        "                <li><a href=\"#\"> Tuyển dụng</a></li>\n" +
-        "                <li><a href=\"#\"> Thông tin công ty</a></li>\n" +
+        "                <li><a href=\"#\"> Company information</a></li>\n" +
+        "                <li><a href=\"#\"> Recruitment</a></li>\n" +
+        "                <li><a href=\"#\"> Company information</a></li>\n" +
         "                <li><a href=\"#\"> Email:luckyfruit@gmail.com</a></li>\n" +
         "            </ul>\n" +
         "        </div>\n" +
         "        <div class=\"col-md-4 footer1\">\n" +
-        "            <p> chính sách công ty</p>\n" +
+        "            <p> company policy</p>\n" +
         "            <ul>\n" +
-        "                <li><a href=\"#\"> Chính sách Thẻ KHTT</a></li>\n" +
-        "                <li><a href=\"#\"> Chính sách viết hóa đơn VAT 5%</a></li>\n" +
-        "                <li><a href=\"#\"> Chính sách bảo mật thông tin cá nhân</a></li>\n" +
-        "                <li><a href=\"#\"> Hướng dẫn khách hàng sử dụng thẻ quà tặng</a></li>\n" +
-        "                <li><a href=\"#\">Hướng dẫn cho khách hàng sử dụng Evoucher</a></li>\n" +
+        "                <li><a href=\"#\"> Policy on Credit Card</a></li>\n" +
+        "                <li><a href=\"#\"> Policy for writing VAT invoice 5%</a></li>\n" +
+        "                <li><a href=\"#\"> Privacy policy of personal information</a></li>\n" +
+        "                <li><a href=\"#\"> Instructing customers to use gift cards</a></li>\n" +
+        "                <li><a href=\"#\">Instructions for customers to use Evoucher</a></li>\n" +
         "            </ul>\n" +
         "        </div>\n" +
         "        <div class=\"col-md-4 footer1\">\n" +
-        "            <p> Quy định khách hàng</p>\n" +
+        "            <p> Customer Regulations</p>\n" +
         "            <ul>\n" +
-        "                <li><a href=\"#\"> Quy định đổi trả sản phẩm</a></li>\n" +
-        "                <li><a href=\"#\"> Hướng dẫn đặt hàng và thanh toán</a></li>\n" +
+        "                <li><a href=\"#\"> Product return policy</a></li>\n" +
+        "                <li><a href=\"#\"> Instructions for ordering and payment</a></li>\n" +
         "            </ul>\n" +
         "        </div>\n" +
         "        <div class=\"claer\"></div>\n" +
         "        <div class=\"end col-md-12\">\n" +
-        "            <p id=\"pp1\">Công ty Lucky fruit</p>\n" +
-        "            <p id=\"pp2\">Địa chỉ đăng ký : số 8 Tôn Thất Thuyết,Nam Từ Liêm,Hà Nội</p>\n" +
+        "            <p id=\"pp1\">Lucky fruit company</p>\n" +
+        "            <p id=\"pp2\">Registration address : số 8 Tôn Thất Thuyết,Nam Từ Liêm,Hà Nội</p>\n" +
         "        </div>\n" +
         "    </div>";
     document.getElementById("ft").innerHTML = ft;
