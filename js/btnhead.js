@@ -1,82 +1,100 @@
+
+
+function showmenu(e) {
+    var obj = document.getElementById("dv1");
+    obj.innerHTML = "<div class=\"dv1\">\n" +
+        "                    <div class=\"div1\"><a href=\"#\">rau củ</a> </div>\n" +
+        "                    <div class=\"div1\"><a href=\"#\">hải sản</a> </div>\n" +
+        "                    <div class=\"div1\"><a href=\"#\">trái cây</a> </div>\n" +
+        "                    <div class=\"div1\"><a href=\"#\">đồ uống</a> </div>\n" +
+        "                    <div class=\"div1\"><a href=\"#\">đồ khô</a> </div>\n" +
+        "                    <div class=\"div1\"><a href=\"#\">thịt trứng</a> </div>\n" +
+        "                </div>";
+}
+
+function hidemenu(){
+    var obj = document.getElementById("dv1");
+    obj.innerHTML = "";
+}
+
 function header(){
-    var hd = "<div class=\"container header\">\n" +
-        "        <div class=\"head_top\">\n" +
-        "            <div class=\"col-md-3\"><a href=\"#\"><img id=\"logo\" src=\"imagegroup/logo.png\"/></a> </div>\n" +
-        "            <div class=\"col-md-3\">\n" +
-        "                <div><img class=\"top-1 \" src=\"imagegroup/hotline.gif\"></div>\n" +
-        "                <div class=\"top-1 top-2\">\n" +
-        "                    <span class=\"h-sp1\">Contact Available</br></span>\n" +
-        "                    <span class=\"h-sp2\">(+00)888.666.88 </span>\n" +
+    var hd = " <div class=\"container\">\n" +
+        "        <div class=\"hd-top col-md-12\">\n" +
+        "            <div class=\"col-md-6 hd-t1\">\n" +
+        "                <span><a class=\"hd-t1a\" href=\"#\"> <img class=\"imhd\" src=\"imagegroup/tnicon.png\"/>mon@mon.media</a> </span>\n" +
+        "                <span><a href=\"#\"> <img class=\"imhd\" src=\"imagegroup/hotline.gif\"/>098748759</a> </span>\n" +
+        "            </div>\n" +
+        "            <div class=\"col-md-6 hd-t2\">\n" +
+        "                <span><a class=\"hd-t1a\" href=\"#\"> Đăng ký/Đăng nhập</a> </span>\n" +
+        "                <span><a href=\"#\"> <img class=\"imhd\" src=\"imagegroup/ghicon.jpg\"/>Giỏ hàng</a> </span>\n" +
+        "            </div>\n" +
+        "        </div>\n" +
+        "        <div class=\"col-md-12 hd-main\">\n" +
+        "            <div class=\"hd-m1 \" id=\"img\"><a href=\"#\"><img class=\"img\" src=\"imagegroup/mona1.png\"/> </a> </div>\n" +
+        "            <div class=\"hd-m1 m1\"><a href=\"#\">Trang chủ</a> </div>\n" +
+        "            <div class=\"hd-m1 m1\"><a href=\"#\">Giới thiệu</a> </div>\n" +
+        "            <div class=\"hd-m1 m1\" onmouseenter=\"showmenu()\" onmouseleave=\"hidemenu()\" ><a   href=\"#\">Cửa hàng</a>\n" +
+        "                <div id=\"dv1\" >\n" +
+        "\n" +
         "                </div>\n" +
+        "\n" +
         "            </div>\n" +
-        "            <div class=\"col-md-3\">\n" +
-        "                <div ><img class=\"top-1\" src=\"imagegroup/hotline.gif\"></div>\n" +
-        "                <div class=\"top-1 top-2\">\n" +
-        "                    <span class=\"h-sp1\">Our Location</br></span>\n" +
-        "                    <span class=\"h-sp2\">New York city, US</span>\n" +
-        "                </div>\n" +
-        "            </div>\n" +
-        "            <div class=\"col-md-3 bt\" id=\"logo-1\"><a id=\"h-a1\" href=\"#\"> Contact Us</a></div>\n" +
-        "        </div>\n" +
-        "        <hr class=\"col-md-12\">\n" +
-        "        <div class=\"head-mid col-md-12\">\n" +
-        "            <div class=\"col-md-3\"></div>\n" +
-        "            <div class=\"col-md-1\"><a href=\"#\"> Home</a></div>\n" +
-        "            <div class=\"col-md-1\"><a href=\"#\"> About</a></div>\n" +
-        "            <div class=\"col-md-1\"><a href=\"#\"> Choose</a></div>\n" +
-        "            <div class=\"col-md-1\"><a href=\"#\"> Team</a></div>\n" +
-        "            <div class=\"col-md-1\"><a href=\"#\"> Pricing</a></div>\n" +
-        "            <div class=\"col-md-1\"><a href=\"#\"> Contact</a></div>\n" +
-        "            <div class=\"col-md-3\"></div>\n" +
-        "        </div>\n" +
-        "        <div class=\"head-bottom col-md-12\">\n" +
-        "            <div class=\"col-md-8\">\n" +
-        "                <div class=\"hb-d1\">Best landing page </div>\n" +
-        "                <div id=\"hb-2\">AGRICULTURE IS THE</br> SCIENCE PLANTS</div>\n" +
-        "                <div class=\"hb-d1\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor.</div>\n" +
-        "                <div id=\"hb-3\" class=\"bt\"><a href=\"#\">Readmore</a></div>\n" +
-        "            </div>\n" +
-        "            <div class=\"col-md-4\">\n" +
-        "                <img src=\"imagegroup/bg1.png\" height=\"290\" width=\"355\"/>\n" +
+        "            <div class=\"hd-m1 m1\"><a href=\"#\">Danh bạ nhà nông</a> </div>\n" +
+        "            <div class=\"hd-m1 m1\"><a href=\"#\">Kiến thức</a> </div>\n" +
+        "            <div class=\"hd-m1 m1\"><a href=\"#\">Liên hệ</a> </div>\n" +
+        "            <div class=\"hd-m1\" id=\"ip\">\n" +
+        "                <input type=\"text\" name=\"tk\" placeholder=\"Tìm kiếm\"/>\n" +
         "            </div>\n" +
         "        </div>\n" +
+        "        <hr>\n" +
         "    </div>";
-    document.getElementById("hd").innerHTML = hd;
+        document.getElementById("hd").innerHTML = hd;
 }
 header();
 
 function footer(){
-    var ft = "<div class=\"container foot\">\n" +
-        "        <div class=\"col-md-4 footer1\">\n" +
-        "            <p> Company information</p>\n" +
-        "            <ul>\n" +
-        "                <li><a href=\"#\"> Company information</a></li>\n" +
-        "                <li><a href=\"#\"> Recruitment</a></li>\n" +
-        "                <li><a href=\"#\"> Company information</a></li>\n" +
-        "                <li><a href=\"#\"> Email:luckyfruit@gmail.com</a></li>\n" +
-        "            </ul>\n" +
-        "        </div>\n" +
-        "        <div class=\"col-md-4 footer1\">\n" +
-        "            <p> company policy</p>\n" +
-        "            <ul>\n" +
-        "                <li><a href=\"#\"> Policy on Credit Card</a></li>\n" +
-        "                <li><a href=\"#\"> Policy for writing VAT invoice 5%</a></li>\n" +
-        "                <li><a href=\"#\"> Privacy policy of personal information</a></li>\n" +
-        "                <li><a href=\"#\"> Instructing customers to use gift cards</a></li>\n" +
-        "                <li><a href=\"#\">Instructions for customers to use Evoucher</a></li>\n" +
-        "            </ul>\n" +
-        "        </div>\n" +
-        "        <div class=\"col-md-4 footer1\">\n" +
-        "            <p> Customer Regulations</p>\n" +
-        "            <ul>\n" +
-        "                <li><a href=\"#\"> Product return policy</a></li>\n" +
-        "                <li><a href=\"#\"> Instructions for ordering and payment</a></li>\n" +
-        "            </ul>\n" +
-        "        </div>\n" +
-        "        <div class=\"claer\"></div>\n" +
-        "        <div class=\"end col-md-12\">\n" +
-        "            <p id=\"pp1\">Lucky fruit company</p>\n" +
-        "            <p id=\"pp2\">Registration address : số 8 Tôn Thất Thuyết,Nam Từ Liêm,Hà Nội</p>\n" +
+    var ft = "<div class=\"container\">\n" +
+        "        <div class=\"ft0 col-md-12\">\n" +
+        "            <div class=\"col-md-4\">\n" +
+        "                <div class=\"ft1\">\n" +
+        "                    <a href=\"#\"><img class=\"img\" src=\"imagegroup/mona1.png\"/> </a>\n" +
+        "                    <div><img src=\"#\"/><span class=\"ft3\">319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</span></div>\n" +
+        "                    <div><img src=\"#\"/><span class=\"ft3\">07987465</span></div>\n" +
+        "                    <div><img src=\"#\"/><a class=\"ft3\" href=\"#\">abc@gmail.com</a></div>\n" +
+        "                    <div><img src=\"#\"/><a class=\"ft3\" href=\"#\">demohunter</a></div>\n" +
+        "                </div>\n" +
+        "            </div>\n" +
+        "            <div class=\"col-md-2\">\n" +
+        "                <div class=\"ft2\">Sản phẩm</div>\n" +
+        "                <div ><a class=\"ft3\" href=\"#\">Rau củ</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"#\">hải sản</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"#\">trái cây</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"#\">đồ uống</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"#\">thị trường</a></div>\n" +
+        "            </div>\n" +
+        "            <div class=\"col-md-2\">\n" +
+        "                <div class=\"ft2\">danh mục</div>\n" +
+        "                <div ><a class=\"ft3\" href=\"#\">trang chủ</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"#\">giới thiệu</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"#\">cửa hàng</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"#\">kiến thức</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"#\">liên hệ</a></div>\n" +
+        "            </div>\n" +
+        "            <div class=\"col-md-2\">\n" +
+        "                <div class=\"ft2\">Dịch vụ</div>\n" +
+        "                <div ><a class=\"ft3\" href=\"#\">Rau củ</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"#\">hải sản</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"#\">trái cây</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"#\">đồ uống</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"#\">thị trường</a></div>\n" +
+        "            </div>\n" +
+        "            <div class=\"col-md-2\">\n" +
+        "                <div class=\"ft2\">đăng ký</div>\n" +
+        "                <div class=\"ft4\">Đăng ký để nhận được được thông tin mới nhất từ chúng tôi.</div>\n" +
+        "                <div class=\"ft5\">\n" +
+        "                    <input type=\"email\" name=\"email\" placeholder=\"Email\">\n" +
+        "                </div>\n" +
+        "            </div>\n" +
         "        </div>\n" +
         "    </div>";
     document.getElementById("ft").innerHTML = ft;
