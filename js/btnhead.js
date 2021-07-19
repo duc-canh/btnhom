@@ -53,15 +53,15 @@ function header(){
 header();
 
 function footer(){
-    var ft = "<div class=\"container\">\n" +
+    var ft = " <div class=\"container\">\n" +
         "        <div class=\"ft0 col-md-12\">\n" +
         "            <div class=\"col-md-4\">\n" +
         "                <div class=\"ft1\">\n" +
         "                    <a href=\"#\"><img class=\"img\" src=\"imagegroup/mona1.png\"/> </a>\n" +
-        "                    <div><img src=\"#\"/><span class=\"ft3\">319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</span></div>\n" +
-        "                    <div><img src=\"#\"/><span class=\"ft3\">07987465</span></div>\n" +
-        "                    <div><img src=\"#\"/><a class=\"ft3\" href=\"#\">abc@gmail.com</a></div>\n" +
-        "                    <div><img src=\"#\"/><a class=\"ft3\" href=\"#\">demohunter</a></div>\n" +
+        "                    <div><img class=\"imhd\" src=\"imagegroup/homeicon.png\"/><span class=\"ft3\">319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</span></div>\n" +
+        "                    <div><img class=\"imhd\" src=\"imagegroup/hotline.gif\"/><span class=\"ft3\">07987465</span></div>\n" +
+        "                    <div><img class=\"imhd\" src=\"imagegroup/tnicon.png\"/><a class=\"ft3\" href=\"#\">abc@gmail.com</a></div>\n" +
+        "                    <div><img class=\"imhd\" src=\"imagegroup/tnicon.png\"/><a class=\"ft3\" href=\"#\">demohunter</a></div>\n" +
         "                </div>\n" +
         "            </div>\n" +
         "            <div class=\"col-md-2\">\n" +

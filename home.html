@@ -2,265 +2,313 @@
 <html lang="en" >
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucky:Specializes in Vietnamese fruit specialties</title>
-
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
    <link rel="stylesheet" href="css/cssgroup.css" type="text/css"/>
+    <link rel="stylesheet" href="css/headerft.css" type="text/css">
 
 </head>
 <body>
 <header class="hd" id="hd">
 
 </header>
-<section class="section-main">
+<nav>
     <div class="container">
-        <div class="col-md-12 sc-top">
-            <div class="col-md-6 sc-top1">
-                <span>trang chủ / </span>
-                <span>trái cây</span>
+        <div class="nav1 col-md-12">TÌM MUA THỰC PHẨM SẠCH TỪ
+            NHÀ CUNG CẤP UY TÍN TẠI ĐÂY</div>
+        <div class="slider">
+            <div class="slides">
+                <!-- Radio button -->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <!-- slide image -->
+                <div class="slide first">
+                    <img src="imagegroup/fruit3.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="imagegroup/fruit1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="imagegroup/fruit2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="imagegroup/fruit4.jpg" alt="">
+                </div>
+
+                <div class="next" onclick="next()"><i class="fas fa-chevron-right"></i></div>
+                <div class="prev" onclick="prev()"><i class="fas fa-chevron-left"></i></div>
+
+                <!-- Automatic navigation auto -->
+                <div class="navigattion-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
             </div>
-            <div class="col-md-6 sc-top2">
-                <span>Hiển thị một kết quả duy nhất</span>
-                <span>
-                    <select>
-                        <option><a href="#"> Thứ tự mặc định</a></option>
-                        <option><a href="#"> Thứ tự theo mức độ phổ biến</a></option>
-                         <option><a href="#"> Thứ tự mặc định</a></option>
-                         <option><a href="#"> Thứ tự mặc định</a></option>
-                    </select>
-                </span>
+            <!-- Navigation manual -->
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
             </div>
         </div>
-        <div class="col-md-12 sc-mid">
-            <div class="col-md-3">
-                <div class="mid-1">
-                    <div class="mid-11">danh mục sản phẩm</div>
-                    <div class="mid-12" ><a  href="#">Rau củ</a></div>
-                    <div class="mid-12"><a  href="#">Hải sản</a></div>
-                    <div class="mid-12"><a  href="#">Trái cây</a></div>
-                    <div class="mid-12"><a  href="#">Đồ uống</a></div>
-                    <div class="mid-12"><a  href="#">Đồ khô</a></div>
-                    <div class="mid-12"><a  href="#">Thị trường</a></div>
+        <div class="nav2 col-md-12"><a href="#">Mua ngay</a> </div>
+    </div>
+</nav>
+<section class="sc">
+    <div class="container">
+        <div class="sc1 col-md-12">
+            <div class="title col-md-12">sản phẩm được lựa chọn từ vườn</div>
+            <div><img src="imagegroup/trangtri.png"> </div>
+            <div class="ite col-md-12">
+                <div class="col-md-2">
+                    <div class="ite1">
+                        <div><img src="imagegroup/fruit5.png"/></div>
+                        <div><a class="ite11" href="#">Hoa quả</a> </div>
+                    </div>
                 </div>
-                <div class="mid-2">
-                    <div class="mid-11 col-md-12">sản phẩm</div>
-                    <div class="mid-13 col-md-12" >
-                        <div class="col-md-4"><img src="imagegroup/vs.jpg" /></div>
-                        <div class="col-md-8">
-                            <div class="mid-131" ><a href="#">Thanh Long</a> </div>
-                            <div class="mid-132">45,000 đ</div>
-                        </div>
+                <div class="col-md-2">
+                    <div class="ite1">
+                        <div><img src="imagegroup/a1.png"/></div>
+                        <div><a class="ite11" href="#">Hải sản</a> </div>
                     </div>
-                    <div class="mid-13 col-md-12" >
-                        <div class="col-md-4"><img src="imagegroup/vs.jpg" /></div>
-                        <div class="col-md-8">
-                            <div class="mid-131" ><a href="#">Thanh Long</a> </div>
-                            <div class="mid-132">45,000 đ</div>
-                        </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="ite1">
+                        <div><img src="imagegroup/a2.png"/></div>
+                        <div><a class="ite11" href="#">Thịt trứng</a> </div>
                     </div>
-                    <div class="mid-13 col-md-12" >
-                        <div class="col-md-4"><img src="imagegroup/vs.jpg" /></div>
-                        <div class="col-md-8">
-                            <div class="mid-131" ><a href="#">Thanh Long</a> </div>
-                            <div class="mid-132">45,000 đ</div>
-                        </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="ite1">
+                        <div><img src="imagegroup/a3.png"/></div>
+                        <div><a class="ite11" href="#">Trái cây</a> </div>
                     </div>
-                    <div class="mid-13 col-md-12" >
-                        <div class="col-md-4"><img src="imagegroup/vs.jpg" /></div>
-                        <div class="col-md-8">
-                            <div class="mid-131" ><a href="#">Thanh Long</a> </div>
-                            <div class="mid-132">45,000 đ</div>
-                        </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="ite1">
+                        <div><img src="imagegroup/a4.png"/></div>
+                        <div><a class="ite11" href="#">Đồ khô</a> </div>
                     </div>
-                    <div class="mid-13 col-md-12" >
-                        <div class="col-md-4"><img src="imagegroup/vs.jpg" /></div>
-                        <div class="col-md-8">
-                            <div class="mid-131" ><a href="#">Thanh Long</a> </div>
-                            <div class="mid-132">45,000 đ</div>
-                        </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="ite1">
+                        <div><img src="imagegroup/a5.png"/></div>
+                        <div><a class="ite11" href="#">Đồ uống</a> </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-9">
-                <div class="col-md-12 row1">
-                    <div class="col-md-3 ">
-                        <div class="sc-item11">
-                            <img src="imagegroup/vs1.jpeg"/>
-                            <div class="it">
-                                <div class="it1"><a href="#"> Bơ sáp</a></div>
-                                <div class="it2">75,000 đ</div>
-                                <div class="it3"><a href="#"> thêm vào giỏ</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 ">
-                        <div class="sc-item11">
-                            <img src="imagegroup/vs1.jpeg"/>
-                            <div class="it">
-                                <div class="it1"><a href="#"> Bơ sáp</a></div>
-                                <div class="it2">75,000 đ</div>
-                                <div class="it3"><a href="#"> thêm vào giỏ</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 ">
-                        <div class="sc-item11">
-                            <img src="imagegroup/vs1.jpeg"/>
-                            <div class="it">
-                                <div class="it1"><a href="#"> Bơ sáp</a></div>
-                                <div class="it2">75,000 đ</div>
-                                <div class="it3"><a href="#"> thêm vào giỏ</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 ">
-                        <div class="sc-item11">
-                            <img src="imagegroup/vs1.jpeg"/>
-                            <div class="it">
-                                <div class="it1"><a href="#"> Bơ sáp</a></div>
-                                <div class="it2">75,000 đ</div>
-                                <div class="it3"><a href="#"> thêm vào giỏ</a></div>
-                            </div>
-                        </div>
+        </div>
+        <div class="sc1 col-md-12">
+            <div class="title col-md-12">chương trình khuyến mại</div>
+            <div><img src="imagegroup/trangtri.png"> </div>
+            <div class="col-md-12">
+                <div class="col-md-3">
+                    <div class="ite2">
+                        <div><a href="#"> <img src="imagegroup/b1.png"/></a></div>
                     </div>
                 </div>
-                <div class="col-md-12 row1">
-                    <div class="col-md-3 ">
-                        <div class="sc-item11">
-                            <img src="imagegroup/vs1.jpeg"/>
-                            <div class="it">
-                                <div class="it1"><a href="#"> Bơ sáp</a></div>
-                                <div class="it2">75,000 đ</div>
-                                <div class="it3"><a href="#"> thêm vào giỏ</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 ">
-                        <div class="sc-item11">
-                            <img src="imagegroup/vs1.jpeg"/>
-                            <div class="it">
-                                <div class="it1"><a href="#"> Bơ sáp</a></div>
-                                <div class="it2">75,000 đ</div>
-                                <div class="it3"><a href="#"> thêm vào giỏ</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 ">
-                        <div class="sc-item11">
-                            <img src="imagegroup/vs1.jpeg"/>
-                            <div class="it">
-                                <div class="it1"><a href="#"> Bơ sáp</a></div>
-                                <div class="it2">75,000 đ</div>
-                                <div class="it3"><a href="#"> thêm vào giỏ</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 ">
-                        <div class="sc-item11">
-                            <img src="imagegroup/vs1.jpeg"/>
-                            <div class="it">
-                                <div class="it1"><a href="#"> Bơ sáp</a></div>
-                                <div class="it2">75,000 đ</div>
-                                <div class="it3"><a href="#"> thêm vào giỏ</a></div>
-                            </div>
-                        </div>
+                <div class="col-md-3">
+                    <div class="ite2">
+                        <div><a href="#"> <img src="imagegroup/b2.jpg"/></a></div>
                     </div>
                 </div>
-                <div class="col-md-12 row1">
-                    <div class="col-md-3 ">
-                        <div class="sc-item11">
-                            <img src="imagegroup/vs1.jpeg"/>
-                            <div class="it">
-                                <div class="it1"><a href="#"> Bơ sáp</a></div>
-                                <div class="it2">75,000 đ</div>
-                                <div class="it3"><a href="#"> thêm vào giỏ</a></div>
-                            </div>
-                        </div>
+                <div class="col-md-3">
+                    <div class="ite2">
+                        <div><a href="#"> <img src="imagegroup/b3.png"/></a></div>
                     </div>
-                    <div class="col-md-3 ">
-                        <div class="sc-item11">
-                            <img src="imagegroup/vs1.jpeg"/>
-                            <div class="it">
-                                <div class="it1"><a href="#"> Bơ sáp</a></div>
-                                <div class="it2">75,000 đ</div>
-                                <div class="it3"><a href="#"> thêm vào giỏ</a></div>
-                            </div>
-                        </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ite2">
+                        <div><a href="#"> <img src="imagegroup/fruit6.jpg"/></a></div>
                     </div>
-                    <div class="col-md-3 ">
-                        <div class="sc-item11">
-                            <img src="imagegroup/vs1.jpeg"/>
-                            <div class="it">
-                                <div class="it1"><a href="#"> Bơ sáp</a></div>
-                                <div class="it2">75,000 đ</div>
-                                <div class="it3"><a href="#"> thêm vào giỏ</a></div>
-                            </div>
-                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="sc1 col-md-12">
+            <div class="title col-md-12">sản phẩm nổi bật</div>
+            <div><img src="imagegroup/trangtri.png"> </div>
+            <div class="col-md-12 sc2">
+                <div class="col-md-2">
+                    <div class="ite3">
+                        <img src="imagegroup/c1.jpg">
+                        <div class="name">Bưởi da xanh</div>
+                        <div class="price">110,000 đ</div>
+                        <div ><a class="click" href="#">Thêm vào giỏ</a></div>
                     </div>
-                    <div class="col-md-3 ">
-                        <div class="sc-item11">
-                            <img src="imagegroup/vs1.jpeg"/>
-                            <div class="it">
-                                <div class="it1"><a href="#"> Bơ sáp</a></div>
-                                <div class="it2">75,000 đ</div>
-                                <div class="it3"><a href="#"> thêm vào giỏ</a></div>
-                            </div>
-                        </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="ite3">
+                        <img src="imagegroup/c2.jpg">
+                        <div class="name">Cá trác vàng</div>
+                        <div class="price">120,000 đ</div>
+                        <div ><a class="click" href="#">Thêm vào giỏ</a></div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="ite3">
+                        <img src="imagegroup/c3.jpg">
+                        <div class="name">Tôm sú</div>
+                        <div class="price">100,000 đ</div>
+                        <div ><a class="click" href="#">Thêm vào giỏ</a></div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="ite3">
+                        <img src="imagegroup/c4.jpg">
+                        <div class="name">Cải bó xôi</div>
+                        <div class="price">50,000 đ</div>
+                        <div ><a class="click" href="#">Thêm vào giỏ</a></div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="ite3">
+                        <img src="imagegroup/c7.png">
+                        <div class="name">Gà ta thả vườn</div>
+                        <div class="price">150,000 đ</div>
+                        <div ><a class="click" href="#">Thêm vào giỏ</a></div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="ite3">
+                        <img src="imagegroup/c6.jpeg">
+                        <div class="name">Bơ sáp 034</div>
+                        <div class="price">150,000 đ</div>
+                        <div ><a class="click" href="#">Thêm vào giỏ</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 sc2">
+                <div class="col-md-2">
+                    <div class="ite3">
+                        <img src="imagegroup/c7.png">
+                        <div class="name">Thịt lạc đùi heo</div>
+                        <div class="price">150,000 đ</div>
+                        <div ><a class="click" href="#">Thêm vào giỏ</a></div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="ite3">
+                        <img src="imagegroup/c8.jpg">
+                        <div class="name">Xoài cát hòa lộc</div>
+                        <div class="price">150,000 đ</div>
+                        <div ><a class="click" href="#">Thêm vào giỏ</a></div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="ite3">
+                        <img src="imagegroup/c4.jpg">
+                        <div class="name">Thanh long sạch</div>
+                        <div class="price">150,000 đ</div>
+                        <div ><a class="click" href="#">Thêm vào giỏ</a></div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="ite3">
+                        <img src="imagegroup/c10.jpg">
+                        <div class="name">Cam xoàng</div>
+                        <div class="price">150,000 đ</div>
+                        <div ><a class="click" href="#">Thêm vào giỏ</a></div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="ite3">
+                        <img src="imagegroup/c11.jpg">
+                        <div class="name">Cá basa</div>
+                        <div class="price">150,000 đ</div>
+                        <div ><a class="click" href="#">Thêm vào giỏ</a></div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="ite3">
+                        <img src="imagegroup/c12.jpg">
+                        <div class="name">Sầu riêng Ri6</div>
+                        <div class="price">150,000 đ</div>
+                        <div ><a class="click" href="#">Thêm vào giỏ</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sc1 col-md-12">
+            <div class="title col-md-12">Kết nối nhà vườn</div>
+            <div><img src="imagegroup/trangtri.png"> </div>
+            <div class="col-md-12 sc3">
+                <div class="col-md-3">
+                    <div class="ite4">
+                        <a href="#"> <img src="imagegroup/d1.jpg"/>
+                            <div class="introduce">Công ty An Mộc Farm</div>
+                            <div class="detail">Công ty TNHH Thực phẩm Tâm Minh có sản xuất Bột nêm Ngưu báng được làm từ các nguyên liệu từ thiên nhiên rất tốt cho sức khỏe người tiêu dùng.</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ite4">
+                        <a href="#"> <img src="imagegroup/fruit8.png"/>
+                            <div class="introduce">Công ty Tân Minh</div>
+                            <div class="detail">Công ty TNHH Thực phẩm Tâm Minh có sản xuất Bột nêm Ngưu báng được làm từ các nguyên liệu từ thiên nhiên rất tốt cho sức khỏe người tiêu dùng.</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ite4">
+                        <a href="#"> <img src="imagegroup/d3.png"/>
+                            <div class="introduce">Công ty Thiên nhiên Việt</div>
+                            <div class="detail">Công ty TNHH Thực phẩm Tâm Minh có sản xuất Bột nêm Ngưu báng được làm từ các nguyên liệu từ thiên nhiên rất tốt cho sức khỏe người tiêu dùng.</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ite4">
+                        <a href="#"> <img src="imagegroup/d4.png"/>
+                            <div class="introduce">Công ty Binca VN</div>
+                            <div class="detail">Công ty TNHH Thực phẩm Tâm Minh có sản xuất Bột nêm Ngưu báng được làm từ các nguyên liệu từ thiên nhiên rất tốt cho sức khỏe người tiêu dùng.</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sc1 col-md-12">
+            <div class="title col-md-12">cam kết của chúng tôi</div>
+            <div><img src="imagegroup/trangtri.png"> </div>
+            <div class="col-md-12 sc3">
+                <div class="col-md-3">
+                    <div class="ite5">
+                        <img src="imagegroup/e1.jpg">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ite5">
+                        <img src="imagegroup/e2.jpg">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ite5">
+                        <img src="imagegroup/e3.jpg">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ite5">
+                        <img src="imagegroup/fruit9.jpg">
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<footer class="ft">
-    <div class="container">
-        <div class="ft0 col-md-12">
-            <div class="col-md-4">
-                <div class="ft1">
-                    <a href="#"><img class="img" src="imagegroup/mona1.png"/> </a>
-                    <div><img class="imhd" src="imagegroup/homeicon.png"/><span class="ft3">319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</span></div>
-                    <div><img class="imhd" src="imagegroup/hotline.gif"/><span class="ft3">07987465</span></div>
-                    <div><img class="imhd" src="imagegroup/tnicon.png"/><a class="ft3" href="#">abc@gmail.com</a></div>
-                    <div><img class="imhd" src="imagegroup/tnicon.png"/><a class="ft3" href="#">demohunter</a></div>
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="ft2">Sản phẩm</div>
-                <div ><a class="ft3" href="#">Rau củ</a></div>
-                <div ><a class="ft3" href="#">hải sản</a></div>
-                <div ><a class="ft3" href="#">trái cây</a></div>
-                <div ><a class="ft3" href="#">đồ uống</a></div>
-                <div ><a class="ft3" href="#">thị trường</a></div>
-            </div>
-            <div class="col-md-2">
-                <div class="ft2">danh mục</div>
-                <div ><a class="ft3" href="#">trang chủ</a></div>
-                <div ><a class="ft3" href="#">giới thiệu</a></div>
-                <div ><a class="ft3" href="#">cửa hàng</a></div>
-                <div ><a class="ft3" href="#">kiến thức</a></div>
-                <div ><a class="ft3" href="#">liên hệ</a></div>
-            </div>
-            <div class="col-md-2">
-                <div class="ft2">Dịch vụ</div>
-                <div ><a class="ft3" href="#">Rau củ</a></div>
-                <div ><a class="ft3" href="#">hải sản</a></div>
-                <div ><a class="ft3" href="#">trái cây</a></div>
-                <div ><a class="ft3" href="#">đồ uống</a></div>
-                <div ><a class="ft3" href="#">thị trường</a></div>
-            </div>
-            <div class="col-md-2">
-                <div class="ft2">đăng ký</div>
-                <div class="ft4">Đăng ký để nhận được được thông tin mới nhất từ chúng tôi.</div>
-                <div class="ft5">
-                    <input type="email" name="email" placeholder="Email">
-                </div>
-            </div>
-        </div>
-    </div>
+<footer class="ft" id="ft">
+
 </footer>
 <script src="js/jquery-3.6.0.min.js"></script>
 <script type="text/javascript" src="js/btnhead.js"></script>
+<script type="text/javascript" src="js/homejs.js"></script>
 </body>
 </html>
