@@ -100,3 +100,4 @@ function footer(){
     document.getElementById("ft").innerHTML = ft;
 }
 footer();
+//end
