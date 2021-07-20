@@ -1,0 +1,56 @@
+.img img{
+    max-width: 100%;
+}
+.desc a{
+    color: gray;
+}
+.desc a:hover{
+    color: black;
+    text-decoration: none;
+}
+.desc h3{
+    color: limegreen;
+}
+.buy{
+    background-color: limegreen;
+    text-align: center;
+    height: 70px;
+}
+.buy a{
+    color: white;
+}
+.buy a:hover{
+    color: gold;
+}
+.desc img{
+    width: 260px;
+    height: 89px;
+}
+.mote{
+    border: 1px solid gray;
+    text-align: center;
+    background-color: limegreen;
+}
+.motee{
+    border: 1px solid gray;
+    color: gray;
+    text-align: center;
+}
+.motee:hover{
+    background-color: mediumspringgreen;
+    color: black;
+}
+.mote a{
+    color: gray;
+}
+.motee a{
+    color: gray;
+}
+.motee a:hover{
+    color: black;
+    text-decoration: none;
+}
+.magazine img{
+    max-height: 100%;
+    max-width: 100%;
+}
