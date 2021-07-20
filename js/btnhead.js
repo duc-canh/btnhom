@@ -30,7 +30,7 @@ function header(){
         "            </div>\n" +
         "        </div>\n" +
         "        <div class=\"col-md-12 hd-main\">\n" +
-        "            <div class=\"hd-m1 \" id=\"img\"><a href=\"https://btnhom01.herokuapp.com/\"><img class=\"img\" src=\"imagegroup/mona1.png\"/> </a> </div>\n" +
+        "            <div class=\"hd-m1 \" id=\"img\"><a href=\"https://btnhom01.herokuapp.com/\"><img class=\"imgaa\" src=\"imagegroup/mona1.png\"/> </a> </div>\n" +
         "            <div class=\"hd-m1 m1\"><a href=\"https://btnhom01.herokuapp.com/\">Trang chủ</a> </div>\n" +
         "            <div class=\"hd-m1 m1\"><a href=\"#\">Giới thiệu</a> </div>\n" +
         "            <div class=\"hd-m1 m1\" onmouseenter=\"showmenu()\" onmouseleave=\"hidemenu()\" ><a   href=\"https://btnhom01.herokuapp.com/strore.html\">Cửa hàng</a>\n" +
