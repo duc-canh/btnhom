@@ -1,0 +1,249 @@
+/*nav*/
+body {
+    margin: 0;
+    padding: 0;
+    /* background: #23e3c9; */
+}
+
+.slider {
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides {
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    transition: 2s;
+    position: relative;
+}
+
+.slide img {
+    width: 800px;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background: #fff;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -75%;
+}
+
+.navigattion-auto {
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigattion-auto div {
+    border: 2px solid #23e3c9;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigattion-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigattion-auto .auto-btn1 {
+    background: #fff;
+}
+
+#radio2:checked ~ .navigattion-auto .auto-btn2 {
+    background: #fff;
+}
+
+#radio3:checked ~ .navigattion-auto .auto-btn3 {
+    background: #fff;
+}
+
+#radio4:checked ~ .navigattion-auto .auto-btn4 {
+    background: #fff;
+}
+
+.next {
+    position: absolute;
+    top: 380px;
+    left: 1050px;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 60px;
+    z-index: 1;
+    height: 130px;
+    width: 90px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 130px;
+}
+
+.prev {
+    position: absolute;
+    top: 380px;
+    left: 160px;
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: 900;
+    font-size: 60px;
+    z-index: 1;
+    height: 130px;
+    width: 90px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 130px;
+}
+
+.nav1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0;
+    text-shadow: 1px 1px 0 black;
+}
+.nav2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 40px 0 20px;
+}
+.nav2 a{
+    color: white;
+    width: 100px;
+    height: 50px;
+    background-color: limegreen;
+    padding: 15px;
+}
+/*end*/
+/*section*/
+.sc1{
+    text-align: center;
+    margin: 20px 0;
+}
+.title{
+    font-weight: 400;
+    font-size: 25px;
+    text-shadow: 1px 1px 0 black;
+    text-transform: uppercase;
+}
+.ite1 img{
+    margin: 30px 0;
+}
+.ite11{
+    font-size: 20px;
+    font-weight: bold;
+}
+.ite11:hover{
+    color: green;
+}
+.ite2 img{
+    margin: 30px 0;
+    transition: transform ease 0.5s;
+    width: 100%;
+}
+.ite2 img:hover{
+    transform: scale(1.1);
+}
+.sc2{
+    margin: 30px 0;
+}
+.ite3{
+    border: 1px solid gainsboro;
+    line-height: 3;
+    transition: transform ease 0.5s;
+}
+.ite3:hover{
+    transform:translateY(-10px);
+    box-shadow: 1px 1px 10px gray;
+}
+.ite3 img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.name{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.price{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: green;
+    font-size: 15px;
+}
+.click{
+    background-color: limegreen;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+
+}
+.sc3{
+    margin: 30px 0;
+}
+.ite4 img{
+    width: 100%;
+    height: 150px;
+    border: 1px solid gainsboro;
+    padding: 5px;
+}
+.introduce{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.detail{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+.detail:hover{
+    color: green;
+}

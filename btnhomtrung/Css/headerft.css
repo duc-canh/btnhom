@@ -1,0 +1,122 @@
+
+header a{
+    color: black;
+}
+header a:hover{
+    text-decoration: none;
+    color: black;
+}
+/*body{*/
+/*    background-color: white;*/
+/*    font-family: 'Roboto', sans-serif;*/
+/*}*/
+/*header*/
+.hd{
+    margin-top: 10px;
+}
+.hd-top span{
+    margin-left: 10px;
+}
+.hd-t1a{
+    padding-right: 10px;
+    border-right: 1px solid gray;
+}
+.hd-t2{
+    text-align: right;
+}
+.imhd{
+    width: 20px;
+    height: 20px;
+}
+input{
+    width: 120px;
+    border-radius: 20px;
+}
+.hd-main{
+    margin-top: 30px;
+}
+.img{
+    margin-top: 10px;
+    width: 250px;
+    height: 57px;
+}
+
+.hd-m1{
+    float: left;
+}
+.m1:hover{
+    background-color: limegreen;
+}
+.m1{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 57px;
+    margin: 8px 5px;
+    padding: 5px;
+}
+#ip{
+    margin-top: 28px;
+    margin-left: 40px;
+}
+.dv1{
+    width: 200px;
+    height: 210px;
+    position: absolute;
+    background-color: white;
+    margin: 0 0 10px -10px;
+    z-index: 10;
+    box-shadow: 2px 2px 5px gray;
+}
+.div1{
+    color: ghostwhite;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 2;
+    padding: 2px;
+}
+.div1:hover{
+    background-color: green;
+}
+hr{
+
+    border: 1px solid gray;
+}
+
+
+/*footer*/
+
+footer{
+    margin-top: 100px;
+    background-color: #252932;
+}
+.ft0{
+    margin: 40px 20px;
+}
+.ft2{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.ft3:hover{
+    color: green;
+}
+.ft3{
+
+    color: gainsboro;
+    font-size: 15px;
+    line-height: 2.5;
+    text-transform: capitalize;
+}
+.ft1 img{
+    margin-right: 20px;
+}
+.ft4{
+    color: gainsboro;
+    font-size: 15px;
+    line-height: 2.5;
+}
+
+/*end*/
