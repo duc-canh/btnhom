@@ -1,0 +1,88 @@
+
+
+
+
+
+
+body{
+    font-family: "Times New Roman";
+}
+section input{
+    width: 69%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border: 2px solid #6abe45;
+
+}
+.danhsach{
+    width: 100%;
+    height: 5000px;
+    border: 1px solid #c1ccd4;
+    margin-top: -11px;
+}
+.bvm{
+    width: 100%;
+    height: 65px;
+    background-color:  #6abe45;
+    color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    line-height: 65px;
+    font-size: 22px;
+    font-weight: 700;
+    padding-left: 19px;
+}
+.danhsach{
+    width: 100%;
+    height: 350px;
+    color: #00dfff;
+}
+.danhsach li{
+    list-style: none;
+    font-size: 19px;
+    margin-bottom: 14px;
+    margin-left: -22px;
+
+
+}
+.danhsach a{
+    color: #000000;
+    padding-left: -10px;
+
+}
+.danhsach a:hover{
+    color:  #6abe45;
+
+}
+
+.danhsach img{
+    float: left;
+    margin-right: 10px;
+}
+.danhsach ul{
+    margin-top: 10px;
+}
+
+
+.section-right li{
+    width: 235px;
+    height: 330px;
+    border: 1px solid #c1ccd4;
+    float: left;
+    margin-right: 15px;
+    list-style: none;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+.section-right a {
+    color: #6abe45;
+    font-size: 22px;
+    font-weight: 700;
+}
+.section-right li:hover{
+    box-shadow: #c1ccd4;
+}
+
+
