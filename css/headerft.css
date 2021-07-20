@@ -48,7 +48,7 @@ input{
     float: left;
 }
 .m1:hover{
-    background-color: green;
+    background-color: limegreen;
 }
 .m1{
     font-size: 18px;
@@ -79,7 +79,7 @@ input{
     padding: 2px;
 }
 .div1:hover{
-    background-color: gray;
+    background-color: green;
 }
 hr{
 

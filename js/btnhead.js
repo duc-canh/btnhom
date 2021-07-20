@@ -3,12 +3,12 @@
 function showmenu(e) {
     var obj = document.getElementById("dv1");
     obj.innerHTML = "<div class=\"dv1\">\n" +
-        "                    <div class=\"div1\"><a href=\"#\">rau củ</a> </div>\n" +
-        "                    <div class=\"div1\"><a href=\"#\">hải sản</a> </div>\n" +
-        "                    <div class=\"div1\"><a href=\"#\">trái cây</a> </div>\n" +
-        "                    <div class=\"div1\"><a href=\"#\">đồ uống</a> </div>\n" +
-        "                    <div class=\"div1\"><a href=\"#\">đồ khô</a> </div>\n" +
-        "                    <div class=\"div1\"><a href=\"#\">thịt trứng</a> </div>\n" +
+        "                    <div class=\"div1\"><a href=\"https://btnhom01.herokuapp.com/strore.html\">rau củ</a> </div>\n" +
+        "                    <div class=\"div1\"><a href=\"https://btnhom01.herokuapp.com/strore.html\">hải sản</a> </div>\n" +
+        "                    <div class=\"div1\"><a href=\"https://btnhom01.herokuapp.com/strore.html\">trái cây</a> </div>\n" +
+        "                    <div class=\"div1\"><a href=\"https://btnhom01.herokuapp.com/strore.html\">đồ uống</a> </div>\n" +
+        "                    <div class=\"div1\"><a href=\"https://btnhom01.herokuapp.com/strore.html\">đồ khô</a> </div>\n" +
+        "                    <div class=\"div1\"><a href=\"https://btnhom01.herokuapp.com/strore.html\">thịt trứng</a> </div>\n" +
         "                </div>";
 }
 
@@ -30,10 +30,10 @@ function header(){
         "            </div>\n" +
         "        </div>\n" +
         "        <div class=\"col-md-12 hd-main\">\n" +
-        "            <div class=\"hd-m1 \" id=\"img\"><a href=\"#\"><img class=\"img\" src=\"imagegroup/mona1.png\"/> </a> </div>\n" +
-        "            <div class=\"hd-m1 m1\"><a href=\"#\">Trang chủ</a> </div>\n" +
+        "            <div class=\"hd-m1 \" id=\"img\"><a href=\"https://btnhom01.herokuapp.com/\"><img class=\"img\" src=\"imagegroup/mona1.png\"/> </a> </div>\n" +
+        "            <div class=\"hd-m1 m1\"><a href=\"https://btnhom01.herokuapp.com/\">Trang chủ</a> </div>\n" +
         "            <div class=\"hd-m1 m1\"><a href=\"#\">Giới thiệu</a> </div>\n" +
-        "            <div class=\"hd-m1 m1\" onmouseenter=\"showmenu()\" onmouseleave=\"hidemenu()\" ><a   href=\"#\">Cửa hàng</a>\n" +
+        "            <div class=\"hd-m1 m1\" onmouseenter=\"showmenu()\" onmouseleave=\"hidemenu()\" ><a   href=\"https://btnhom01.herokuapp.com/strore.html\">Cửa hàng</a>\n" +
         "                <div id=\"dv1\" >\n" +
         "\n" +
         "                </div>\n" +
@@ -57,7 +57,7 @@ function footer(){
         "        <div class=\"ft0 col-md-12\">\n" +
         "            <div class=\"col-md-4\">\n" +
         "                <div class=\"ft1\">\n" +
-        "                    <a href=\"#\"><img class=\"img\" src=\"imagegroup/mona1.png\"/> </a>\n" +
+        "                    <a href=\"https://btnhom01.herokuapp.com/\"><img class=\"img\" src=\"imagegroup/mona1.png\"/> </a>\n" +
         "                    <div><img class=\"imhd\" src=\"imagegroup/homeicon.png\"/><span class=\"ft3\">319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</span></div>\n" +
         "                    <div><img class=\"imhd\" src=\"imagegroup/hotline.gif\"/><span class=\"ft3\">07987465</span></div>\n" +
         "                    <div><img class=\"imhd\" src=\"imagegroup/tnicon.png\"/><a class=\"ft3\" href=\"#\">abc@gmail.com</a></div>\n" +
@@ -66,27 +66,27 @@ function footer(){
         "            </div>\n" +
         "            <div class=\"col-md-2\">\n" +
         "                <div class=\"ft2\">Sản phẩm</div>\n" +
-        "                <div ><a class=\"ft3\" href=\"#\">Rau củ</a></div>\n" +
-        "                <div ><a class=\"ft3\" href=\"#\">hải sản</a></div>\n" +
-        "                <div ><a class=\"ft3\" href=\"#\">trái cây</a></div>\n" +
-        "                <div ><a class=\"ft3\" href=\"#\">đồ uống</a></div>\n" +
-        "                <div ><a class=\"ft3\" href=\"#\">thị trường</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"https://btnhom01.herokuapp.com/strore.html\">Rau củ</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"https://btnhom01.herokuapp.com/strore.html\">hải sản</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"https://btnhom01.herokuapp.com/strore.html\">trái cây</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"https://btnhom01.herokuapp.com/strore.html\">đồ uống</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"https://btnhom01.herokuapp.com/strore.html\">thị trường</a></div>\n" +
         "            </div>\n" +
         "            <div class=\"col-md-2\">\n" +
         "                <div class=\"ft2\">danh mục</div>\n" +
-        "                <div ><a class=\"ft3\" href=\"#\">trang chủ</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"https://btnhom01.herokuapp.com/\">trang chủ</a></div>\n" +
         "                <div ><a class=\"ft3\" href=\"#\">giới thiệu</a></div>\n" +
-        "                <div ><a class=\"ft3\" href=\"#\">cửa hàng</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"https://btnhom01.herokuapp.com/strore.html\">cửa hàng</a></div>\n" +
         "                <div ><a class=\"ft3\" href=\"#\">kiến thức</a></div>\n" +
         "                <div ><a class=\"ft3\" href=\"#\">liên hệ</a></div>\n" +
         "            </div>\n" +
         "            <div class=\"col-md-2\">\n" +
         "                <div class=\"ft2\">Dịch vụ</div>\n" +
-        "                <div ><a class=\"ft3\" href=\"#\">Rau củ</a></div>\n" +
-        "                <div ><a class=\"ft3\" href=\"#\">hải sản</a></div>\n" +
-        "                <div ><a class=\"ft3\" href=\"#\">trái cây</a></div>\n" +
-        "                <div ><a class=\"ft3\" href=\"#\">đồ uống</a></div>\n" +
-        "                <div ><a class=\"ft3\" href=\"#\">thị trường</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"https://btnhom01.herokuapp.com/strore.html\">Rau củ</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"https://btnhom01.herokuapp.com/strore.html\">hải sản</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"https://btnhom01.herokuapp.com/strore.html\">trái cây</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"https://btnhom01.herokuapp.com/strore.html\">đồ uống</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"https://btnhom01.herokuapp.com/strore.html\">thị trường</a></div>\n" +
         "            </div>\n" +
         "            <div class=\"col-md-2\">\n" +
         "                <div class=\"ft2\">đăng ký</div>\n" +

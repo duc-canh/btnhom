@@ -6,6 +6,9 @@
     font-size: 20px;
     text-transform: uppercase;
 }
+#t1{
+    opacity: 0.5;
+}
 .sc-top span{
     margin: 0 10px;
 }
@@ -21,7 +24,7 @@
     border: 1px solid gray;
 }
 .mid-11{
-    background-color: green;
+    background-color: limegreen;
     color: white;
     text-transform: uppercase;
     font-size: 15px;
@@ -58,9 +61,11 @@
 }
 .sc-item11{
     border: 1px solid gainsboro;
+    transition: transform ease 0.5s;
 }
 .sc-item11:hover{
     box-shadow: 3px 3px 8px gray;
+    transform:translateY(-10px);
 }
 .sc-item11 img{
     width: 100%;
@@ -80,15 +85,18 @@
     color: green;
 }
 .it3{
-    background-color: green;
+    background-color: limegreen;
     margin: 15px 0;
     text-transform: uppercase;
     padding: 10px;
+}
+.it3:hover{
+    background-color: green;
 }
 .it3 a{
     font-size: 15px;
     color: white;
 }
 .row1{
-    margin-bottom: 15px;
+    margin-bottom: 40px;
 }
