@@ -80,6 +80,7 @@ input{
 }
 .div1:hover{
     background-color: green;
+    color: white;
 }
 hr{
 
