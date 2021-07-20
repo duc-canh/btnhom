@@ -80,6 +80,7 @@ input{
 }
 .div1:hover{
     background-color: green;
+    color: white;
 }
 hr{
 
@@ -121,4 +122,4 @@ footer{
     line-height: 2.5;
 }
 
-/*end*/
+
