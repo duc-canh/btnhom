@@ -42,8 +42,11 @@ function header(){
         "            <div class=\"hd-m1 m1\"><a href=\"#\">Danh bạ nhà nông</a> </div>\n" +
         "            <div class=\"hd-m1 m1\"><a href=\"#\">Kiến thức</a> </div>\n" +
         "            <div class=\"hd-m1 m1\"><a href=\"#\">Liên hệ</a> </div>\n" +
-        "            <div class=\"hd-m1\" id=\"ip\">\n" +
-        "                <input type=\"text\" name=\"tk\" placeholder=\"Tìm kiếm\"/>\n" +
+        "            <div class=\"hd-m1\">\n" +
+        "<form class=\"d-flex col-md-12\">\n" +
+        "        <input class=\"form-control me-2 col-md-11\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">\n" +
+        "<button class=\"btn-outline-success col-md-1\" type=\"submit\"><a   href=\"https://www.google.com.vn\"><img class=\"img12\" src=\"imagegroup/as4.glsearchicon.png\"></a></button>";
+        "      </form>";
         "            </div>\n" +
         "        </div>\n" +
         "        <hr>\n" +
@@ -57,7 +60,7 @@ function footer(){
         "        <div class=\"ft0 col-md-12\">\n" +
         "            <div class=\"col-md-4\">\n" +
         "                <div class=\"ft1\">\n" +
-        "                    <a href=\"https://btnhom01.herokuapp.com/\"><img class=\"img\" src=\"imagegroup/mona1.png\"/> </a>\n" +
+        "                    <a href=\"https://btnhom01.herokuapp.com/\"><img class=\"imgaa\" src=\"imagegroup/mona1.png\"/> </a>\n" +
         "                    <div><img class=\"imhd\" src=\"imagegroup/homeicon.png\"/><span class=\"ft3\">319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</span></div>\n" +
         "                    <div><img class=\"imhd\" src=\"imagegroup/hotline.gif\"/><span class=\"ft3\">07987465</span></div>\n" +
         "                    <div><img class=\"imhd\" src=\"imagegroup/tnicon.png\"/><a class=\"ft3\" href=\"#\">abc@gmail.com</a></div>\n" +
