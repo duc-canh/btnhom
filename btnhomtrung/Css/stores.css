@@ -24,7 +24,7 @@
     border: 1px solid gray;
 }
 .mid-11{
-    background-color: limegreen;
+    background-color: #6abe45;
     color: white;
     text-transform: uppercase;
     font-size: 15px;
@@ -36,7 +36,7 @@
     border-bottom: 1px solid gray;
 }
 .mid-12:hover{
-    background-color: green;
+    background-color: #6abe45;
 }
 .mid-13{
     padding: 5px;
@@ -56,7 +56,7 @@
     color: white;
 }
 .mid-13:hover{
-    background-color: green;
+    background-color: #6abe45;
     color: white;
 }
 .sc-item11{
@@ -82,16 +82,16 @@
 .it2{
     font-size: 20px;
     font-weight: bold;
-    color: green;
+    color: #6abe45;
 }
 .it3{
-    background-color: limegreen;
+    background-color: #6abe45;
     margin: 15px 0;
     text-transform: uppercase;
     padding: 10px;
 }
 .it3:hover{
-    background-color: green;
+    background-color: #6abe45;
 }
 .it3 a{
     font-size: 15px;

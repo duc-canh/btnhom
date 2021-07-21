@@ -5,13 +5,13 @@
 a{
     color: black;
 }
-a:hover{
+ a:hover{
     text-decoration: none;
     color: black;
 }
 body{
     background-color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Times New Roman"
 }
 /*header*/
 .hd{
@@ -64,11 +64,12 @@ input{
     float: left;
 }
 .m1:hover{
-    background-color: limegreen;
+    background-color: #6abe45;
+    border-radius: 15px;
 }
 .m1{
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 500;
     line-height: 57px;
     margin: 8px 5px;
     padding: 5px;
@@ -95,10 +96,10 @@ input{
     padding: 2px;
 }
 .div1:hover{
-    background-color: green;
+    background-color: #6abe45;
     color: white;
 }
-hr{
+header hr{
 
     border: 1px solid gray;
 }
@@ -120,7 +121,7 @@ footer{
     margin-top: 30px;
 }
 .ft3:hover{
-    color: green;
+    color: #6abe45;
 }
 .ft3{
 
