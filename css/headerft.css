@@ -5,7 +5,7 @@
 a{
     color: black;
 }
- a:hover{
+a:hover{
     text-decoration: none;
     color: black;
 }
@@ -66,6 +66,7 @@ input{
 .m1:hover{
     background-color: #6abe45;
     border-radius: 15px;
+
 }
 .m1{
     font-size: 20px;

@@ -7,7 +7,7 @@ body {
 
 .slider {
     margin: 0 auto;
-    width: 800px;
+    width: 100%;
     height: 400px;
     overflow: hidden;
 }
@@ -29,7 +29,8 @@ body {
 }
 
 .slide img {
-    width: 800px;
+    object-fit: cover;
+    width: 100%;
 }
 
 .manual-navigation {
@@ -38,6 +39,8 @@ body {
     margin-top: -40px;
     display: flex;
     justify-content: center;
+    margin-left: 170px;
+
 }
 
 .manual-btn {
@@ -78,6 +81,7 @@ body {
     margin-top: 360px;
     display: flex;
     justify-content: center;
+    margin-left: 170px;
 }
 
 .navigattion-auto div {
@@ -111,7 +115,7 @@ body {
 .next {
     position: absolute;
     top: 380px;
-    left: 1050px;
+    left: 1200px;
     color: rgba(0, 0, 0, 0.3);
     font-size: 60px;
     z-index: 1;
@@ -125,7 +129,7 @@ body {
 .prev {
     position: absolute;
     top: 380px;
-    left: 160px;
+    left: 10px;
     color: rgba(0, 0, 0, 0.3);
     font-weight: 900;
     font-size: 60px;
