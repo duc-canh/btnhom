@@ -21,27 +21,27 @@ function header(){
     var hd = " <div class=\"container\">\n" +
         "        <div class=\"hd-top col-md-12\">\n" +
         "            <div class=\"col-md-6 hd-t1\">\n" +
-        "                <span><a class=\"hd-t1a\" href=\"#\"> <img class=\"imhd\" src=\"imagegroup/tnicon.png\"/>mon@mon.media</a> </span>\n" +
-        "                <span><a href=\"#\"> <img class=\"imhd\" src=\"imagegroup/hotline.gif\"/>098748759</a> </span>\n" +
+        "                <span><a class=\"hd-t1a\" href=\"https://www.google.com/gmail/about/\"> <img class=\"imhd\" src=\"imagegroup/tnicon.png\"/>mon@mon.media</a> </span>\n" +
+        "                <span><a href=\"https://www.google.com/gmail/about/\"> <img class=\"imhd\" src=\"imagegroup/hotline.gif\"/>098748759</a> </span>\n" +
         "            </div>\n" +
         "            <div class=\"col-md-6 hd-t2\">\n" +
-        "                <span><a class=\"hd-t1a\" href=\"#\"> Đăng ký/Đăng nhập</a> </span>\n" +
-        "                <span><a href=\"#\"> <img class=\"imhd\" src=\"imagegroup/ghicon.jpg\"/>Giỏ hàng</a> </span>\n" +
+        "                <span><a class=\"hd-t1a\" href=\"https://www.google.com/gmail/about/\"> Đăng ký/Đăng nhập</a> </span>\n" +
+        "                <span><a href=\"https://btnhom01.herokuapp.com/strore.html\"> <img class=\"imhd\" src=\"imagegroup/ghicon.jpg\"/>Giỏ hàng</a> </span>\n" +
         "            </div>\n" +
         "        </div>\n" +
         "        <div class=\"col-md-12 hd-main\">\n" +
         "            <div class=\"hd-m1 \" id=\"img\"><a href=\"https://btnhom01.herokuapp.com/\"><img class=\"img\" src=\"imagegroup/mona1.png\"/> </a> </div>\n" +
         "            <div class=\"hd-m1 m1\"><a href=\"https://btnhom01.herokuapp.com/\">Trang chủ</a> </div>\n" +
-        "            <div class=\"hd-m1 m1\"><a href=\"#\">Giới thiệu</a> </div>\n" +
+        "            <div class=\"hd-m1 m1\"><a href=\"https://btnhom01.herokuapp.com/GioiThieu2.html\">Giới thiệu</a> </div>\n" +
         "            <div class=\"hd-m1 m1\" onmouseenter=\"showmenu()\" onmouseleave=\"hidemenu()\" ><a   href=\"https://btnhom01.herokuapp.com/strore.html\">Cửa hàng</a>\n" +
         "                <div id=\"dv1\" >\n" +
         "\n" +
         "                </div>\n" +
         "\n" +
         "            </div>\n" +
-        "            <div class=\"hd-m1 m1\"><a href=\"#\">Danh bạ nhà nông</a> </div>\n" +
-        "            <div class=\"hd-m1 m1\"><a href=\"#\">Kiến thức</a> </div>\n" +
-        "            <div class=\"hd-m1 m1\"><a href=\"#\">Liên hệ</a> </div>\n" +
+        "            <div class=\"hd-m1 m1\"><a href=\"https://btnhom01.herokuapp.com/DanhBaNhaNong2.html\">Danh bạ nhà nông</a> </div>\n" +
+        "            <div class=\"hd-m1 m1\"><a href=\"https://btnhom01.herokuapp.com/KienThuc2.html\">Kiến thức</a> </div>\n" +
+        "            <div class=\"hd-m1 m1\"><a href=\"https://btnhom01.herokuapp.com/Li%C3%AAnH%E1%BB%872.html\">Liên hệ</a> </div>\n" +
         "            <div class=\"hd-m1\">\n" +
         "                <form class=\"d-flex col-md-12\">\n" +
         "                     <input class=\"form-control me-2 col-md-11\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">\n" +
@@ -63,8 +63,8 @@ function footer(){
         "                    <a href=\"https://btnhom01.herokuapp.com/\"><img class=\"img\" src=\"imagegroup/mona1.png\"/> </a>\n" +
         "                    <div><img class=\"imhd\" src=\"imagegroup/homeicon.png\"/><span class=\"ft3\">319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</span></div>\n" +
         "                    <div><img class=\"imhd\" src=\"imagegroup/hotline.gif\"/><span class=\"ft3\">07987465</span></div>\n" +
-        "                    <div><img class=\"imhd\" src=\"imagegroup/tnicon.png\"/><a class=\"ft3\" href=\"#\">abc@gmail.com</a></div>\n" +
-        "                    <div><img class=\"imhd\" src=\"imagegroup/tnicon.png\"/><a class=\"ft3\" href=\"#\">demohunter</a></div>\n" +
+        "                    <div><img class=\"imhd\" src=\"imagegroup/tnicon.png\"/><a class=\"ft3\" href=\"https://www.google.com/gmail/about/\">abc@gmail.com</a></div>\n" +
+        "                    <div><img class=\"imhd\" src=\"imagegroup/tnicon.png\"/><a class=\"ft3\" href=\"https://www.google.com/gmail/about/\">demohunter</a></div>\n" +
         "                </div>\n" +
         "            </div>\n" +
         "            <div class=\"col-md-2\">\n" +
@@ -78,10 +78,10 @@ function footer(){
         "            <div class=\"col-md-2\">\n" +
         "                <div class=\"ft2\">danh mục</div>\n" +
         "                <div ><a class=\"ft3\" href=\"https://btnhom01.herokuapp.com/\">trang chủ</a></div>\n" +
-        "                <div ><a class=\"ft3\" href=\"#\">giới thiệu</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"https://btnhom01.herokuapp.com/GioiThieu2.html\">giới thiệu</a></div>\n" +
         "                <div ><a class=\"ft3\" href=\"https://btnhom01.herokuapp.com/strore.html\">cửa hàng</a></div>\n" +
-        "                <div ><a class=\"ft3\" href=\"#\">kiến thức</a></div>\n" +
-        "                <div ><a class=\"ft3\" href=\"#\">liên hệ</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"https://btnhom01.herokuapp.com/KienThuc2.html\">kiến thức</a></div>\n" +
+        "                <div ><a class=\"ft3\" href=\"https://btnhom01.herokuapp.com/Li%C3%AAnH%E1%BB%872.html\">liên hệ</a></div>\n" +
         "            </div>\n" +
         "            <div class=\"col-md-2\">\n" +
         "                <div class=\"ft2\">Dịch vụ</div>\n" +
