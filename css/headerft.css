@@ -99,8 +99,9 @@ input{
     color: white;
 }
 hr{
-
+    margin-top: 150px;
     border: 1px solid gray;
+    margin-bottom: 60px;
 }
 
 
