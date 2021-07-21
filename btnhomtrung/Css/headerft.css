@@ -84,7 +84,23 @@ header hr{
 
     border: 1px solid gray;
 }
-
+.img12{
+    width: 20px;
+    height: 20px;
+}
+.d-flex{
+    margin-top: 25px;
+}
+.me-2{
+    width: 120px;
+    height: 30px;
+}
+.btn-outline-success{
+    background-color: white;
+    border: 0 solid white;
+    margin-top: 5px;
+    margin-left: -40px;
+}
 
 /*footer*/
 
