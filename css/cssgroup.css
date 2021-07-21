@@ -142,15 +142,16 @@ body {
 }
 
 .nav1{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Times New Roman"
     font-weight: 400;
-    font-size: 30px;
+    font-size: 22px;
     text-align: center;
     margin: 20px 0;
-    text-shadow: 1px 1px 0 black;
+    /*text-shadow: 1px 1px 0 black;*/
+    color: black;
 }
 .nav2{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Times New Roman";
     text-align: center;
     font-weight: 400;
     font-size: 25px;
@@ -160,8 +161,10 @@ body {
     color: white;
     width: 100px;
     height: 50px;
-    background-color: limegreen;
+    background-color: #6abe45;
     padding: 15px;
+    border-radius: 10px;
+
 }
 /*end*/
 /*section*/
@@ -183,7 +186,7 @@ body {
     font-weight: bold;
 }
 .ite11:hover{
-    color: green;
+    color: #6abe45;
 }
 .ite2 img{
     margin: 30px 0;
@@ -217,11 +220,11 @@ body {
 .price{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color: green;
+    color: #6abe45;
     font-size: 15px;
 }
 .click{
-    background-color: limegreen;
+    background-color: #6abe45;
     color: white;
     font-weight: bold;
     font-size: 15px;
@@ -249,6 +252,5 @@ body {
     font-size: 15px;
 }
 .detail:hover{
-    color: green;
+    color: #6abe45;
 }
-/*end*/

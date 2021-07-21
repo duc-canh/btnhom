@@ -1,3 +1,6 @@
+body{
+    font-family: "Times New Roman";
+}
 .img img{
     max-width: 100%;
 }
@@ -9,18 +12,22 @@
     text-decoration: none;
 }
 .desc h3{
-    color: limegreen;
+    color: #6abe45;
 }
-.buy{
-    background-color: limegreen;
+.buy h3{
+    background-color: #6abe45;
     text-align: center;
-    height: 70px;
+    height: 50px;
+    width:140px;
+    line-height: 50px;
+    border-radius: 10px;
 }
 .buy a{
     color: white;
 }
 .buy a:hover{
-    color: gold;
+    zoom: 1.4;
+    color: white;
 }
 .desc img{
     width: 260px;
@@ -29,7 +36,7 @@
 .mote{
     border: 1px solid gray;
     text-align: center;
-    background-color: limegreen;
+    background-color: #6abe45;
 }
 .motee{
     border: 1px solid gray;
@@ -37,7 +44,7 @@
     text-align: center;
 }
 .motee:hover{
-    background-color: mediumspringgreen;
+    background-color: #6abe45;
     color: black;
 }
 .mote a{
