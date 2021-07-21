@@ -43,10 +43,10 @@ function header(){
         "            <div class=\"hd-m1 m1\"><a href=\"#\">Kiến thức</a> </div>\n" +
         "            <div class=\"hd-m1 m1\"><a href=\"#\">Liên hệ</a> </div>\n" +
         "            <div class=\"hd-m1\">\n" +
-        "<form class=\"d-flex col-md-12\">\n" +
-        "        <input class=\"form-control me-2 col-md-11\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">\n" +
-        "<button class=\"btn-outline-success col-md-1\" type=\"submit\"><a   href=\"https://www.google.com.vn\"><img class=\"img12\" src=\"imagegroup/as4.glsearchicon.png\"></a></button>";
-        "      </form>";
+        "                <form class=\"d-flex col-md-12\">\n" +
+        "                     <input class=\"form-control me-2 col-md-11\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">\n" +
+        "                     <button class=\"btn-outline-success col-md-1\" type=\"submit\"><img class=\"img12\" src=\"imagegroup/as4.glsearchicon.png\"></button>\n" +
+        "                </form>\n" +
         "            </div>\n" +
         "        </div>\n" +
         "        <hr>\n" +
